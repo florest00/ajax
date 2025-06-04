@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajax prac</title>
+    <script defer src="ajax00.js"></script>
+</head>
+
+<body>
+    <h1>ajax prac</h1>
+    <form onsubmit="loadMemberVo(event);">
+        <!-- method="get" -->
+        <input type="text" name="height" placeholder="키 (cm)" id="height">
+        <input type="text" name="weight" placeholder="몸무게 (kg)" id="weight">
+        <button type="submit">BMI 계산</button>
+        <!-- <input type="submit" value="BMI 계산"> -->
+    </form>
+    <!-- 키 몸무게 정보 -->
+    <div id="result"></div>
+</body>
+
+</html>
